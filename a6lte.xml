@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: a6lte
+    * rom: Skyhawk Recovery Project
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://gitlab.com/android_samsung_universal7870" name="a6lte" />
+	
+    <!-- Device -->
+    <project name="device/android_device_samsung_a6lte" path="device/samsung/a6lte" remote="a6lte" revision="skyhawk" />
+
+    <!-- Kernel -->
+    <project name="common/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="a6lte" revision="skyhawk" />
+		
+</manifest>
